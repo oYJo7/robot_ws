@@ -7,3 +7,4 @@
     * foxy: sudo apt install ros-foxy-desktop ros-foxy-rmw-fastrtps* ros-foxy-rmw-cyclonedds*
 * testpub testsub으로 ROS2 정상작동 확인.
 * turtlesim_node 실행 후 teleop 으로 움직임 확인.
+* ROS2 파이썬 패키지 만들기.
