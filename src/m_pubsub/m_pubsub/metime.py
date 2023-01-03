@@ -5,13 +5,16 @@ from rclpy.qos import QoSProfile
 
 class M_sub(Node):
     def __init__(self):
-        super().__init__('helloworld_subscriber')
+        super().__init__('message_time')
         self.qos_profile = QoSProfile(depth = 10)
         self.helloworld_subscriber = self.create_subscription(String, 'message', self.subscriber_message, self.qos_profile)
+        self.time_subscriber = self.create_subscription(String, 'time', self.subscriber_time, self.qos_profile)
 
     def subscriber_message(self, msg):
-        msg.data = f'time : {self.time}'
-        self.get_logger().info(f'Publisher message: {msg.data}')
+        self.get_logger().info(f'Recived message: {msg.data}')
+
+    def subscriber_time(self, msg):
+        self.get_logger().info(f'Recived time: {msg.data}')
 
 def main(args=None):
     rclpy.init(args=args)

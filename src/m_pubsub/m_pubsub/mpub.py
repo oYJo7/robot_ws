@@ -13,7 +13,7 @@ class M_pub(Node):
     
     def m_publisher(self):
         msg = String()
-        msg.data = f'hellow {self.count}'
+        msg.data = f'hello {self.count}'
         self.message_publisher.publish(msg) 
         self.get_logger().info(f'Publisher message: {msg.data}')
         self.count += 1
