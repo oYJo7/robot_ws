@@ -17,6 +17,7 @@
 * QoS 서비스 품질.
 * bashrc 의 내용 수정 띄어 쓰기 문제.
     * source /opt/ros/foxy/setup.bash source ~/robot_ws/install/local_setup.bash
+        ```
         source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
         source /usr/share/vcstool-completion/vcs.bash
         source /usr/share/colcon_cd/function/colcon_cd.sh
@@ -62,6 +63,12 @@
         alias testsub='ros2 run demo_nodes_cpp listener'
         alias testpubimg='ros2 run image_tools cam2image'
         alias testsubimg='ros2 run image_tools showimage'
+        ```
 * 1교시 메세지 퍼블리셔 섭스크라이버 작성.
 * ros2 run m_pubsub mp 정상작동 확인.
 * Sass 연습 google slide : https://docs.google.com/presentation/d/1jwksntFzRzFbpEtHJCzOahT5loVWIPO-PtTMm4BnxtY/edit?usp=sharing
+* 코딩으로 만든 node를 통해서 turtlesim 움직이기
+* ros2 run packagename command --ros-args -r __ns:=/namespacename
+* ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.5, y: 7.0, theta: 1.5, name: 'turtle2'}" 터틀심 스폰 시키기
+* ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 100, g: 50, b: 200, width = 5, off = 0}"
+* 한 화면에서 두 개의 터틀 동시에 움직이기

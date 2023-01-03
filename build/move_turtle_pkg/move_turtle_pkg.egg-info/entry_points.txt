@@ -1,0 +1,3 @@
+[console_scripts]
+mt = move_turtle_pkg.move_turtle:main
+
