@@ -1,0 +1,26 @@
+[0.819s] Invoking command in '/home/optimus/robot_ws/build/m_pubsub': PYTHONPATH=/home/optimus/robot_ws/build/m_pubsub/prefix_override:/home/optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/m_pubsub/build --no-deps install_data
+[1.124s] running develop
+[1.294s] running egg_info
+[1.294s] creating m_pubsub.egg-info
+[1.295s] writing m_pubsub.egg-info/PKG-INFO
+[1.295s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[1.295s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[1.295s] writing requirements to m_pubsub.egg-info/requires.txt
+[1.296s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[1.297s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.335s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.336s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.377s] running build_ext
+[1.378s] Creating /home/optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages/site.py
+[1.380s] Creating /home/optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[1.381s] Installing mp script to /home/optimus/robot_ws/install/m_pubsub/lib/m_pubsub
+[1.382s] Installing ms script to /home/optimus/robot_ws/install/m_pubsub/lib/m_pubsub
+[1.382s] 
+[1.382s] Installed /home/optimus/robot_ws/build/m_pubsub
+[1.382s] running install_data
+[1.382s] creating /home/optimus/robot_ws/install/m_pubsub/share/ament_index
+[1.383s] creating /home/optimus/robot_ws/install/m_pubsub/share/ament_index/resource_index
+[1.383s] creating /home/optimus/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[1.383s] copying resource/m_pubsub -> /home/optimus/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[1.383s] copying package.xml -> /home/optimus/robot_ws/install/m_pubsub/share/m_pubsub
+[1.422s] Invoked command in '/home/optimus/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/optimus/robot_ws/build/m_pubsub/prefix_override:/home/optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/m_pubsub/build --no-deps install_data
