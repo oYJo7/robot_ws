@@ -1,0 +1,17 @@
+[1.343s] Invoking command in '/home/optimus/robot_ws/build/move_turtle_pkg': PYTHONPATH=/home/optimus/robot_ws/build/move_turtle_pkg/prefix_override:/home/optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[1.650s] running develop
+[1.840s] running egg_info
+[1.840s] writing move_turtle_pkg.egg-info/PKG-INFO
+[1.841s] writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt
+[1.841s] writing entry points to move_turtle_pkg.egg-info/entry_points.txt
+[1.841s] writing requirements to move_turtle_pkg.egg-info/requires.txt
+[1.842s] writing top-level names to move_turtle_pkg.egg-info/top_level.txt
+[1.882s] reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[1.884s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[1.933s] running build_ext
+[1.935s] Creating /home/optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)
+[1.935s] Installing mt = move_turtle_pkg.move_turtle:mainmt2 script to /home/optimus/robot_ws/install/move_turtle_pkg/lib/move_turtle_pkg
+[1.936s] 
+[1.936s] Installed /home/optimus/robot_ws/build/move_turtle_pkg
+[1.936s] running install_data
+[1.974s] Invoked command in '/home/optimus/robot_ws/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/optimus/robot_ws/build/move_turtle_pkg/prefix_override:/home/optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/move_turtle_pkg/build --no-deps install_data

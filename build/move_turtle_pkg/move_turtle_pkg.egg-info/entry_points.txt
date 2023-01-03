@@ -1,3 +1,4 @@
 [console_scripts]
 mt = move_turtle_pkg.move_turtle:main
+mt2 = move_turtle_pkg.move_turtle2:main
 
