@@ -83,6 +83,7 @@
     git fetch origin
     git status
     ```
+* fibonacci action 실습
 
 - - - 
 # 2023_1_5
