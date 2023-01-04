@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.004613] (-) JobUnselected: {'identifier': 'm_pubsub'}
+[0.004669] (-) JobUnselected: {'identifier': 'move_turtle_pkg'}
+[0.004695] (-) JobUnselected: {'identifier': 'test_num'}
+[0.004719] (class_test_interfaces) JobQueued: {'identifier': 'class_test_interfaces', 'dependencies': OrderedDict()}
+[0.006157] (class_test_interfaces) JobStarted: {'identifier': 'class_test_interfaces'}
+[0.035914] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'cmake'}
+[0.038031] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'build'}
+[0.038098] (class_test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimus/robot_ws/build/class_test_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/optimus/robot_ws/build/class_test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'optimus'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1455'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/optimus/robot_ws/install/class_test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/optimus'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1285'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2340'), ('_colcon_cd_root', '/home/optimus/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/optimus/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'optimus'), ('JOURNAL_STREAM', '8:35540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/optimus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/optimus-VirtualBox:@/tmp/.ICE-unix/1501,unix/optimus-VirtualBox:/tmp/.ICE-unix/1501'), ('INVOCATION_ID', '7cf57cbce41844a9a17b46d56b936a10'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/home/optimus/robot_ws/install/test_num:/home/optimus/robot_ws/install/move_turtle_pkg:/home/optimus/robot_ws/install/m_pubsub:/home/optimus/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fae682a1-c4c5-4684-a7cd-84d55c705176'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/optimus/robot_ws/build/class_test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/optimus/robot_ws/build/test_num:/home/optimus/robot_ws/install/test_num/lib/python3.8/site-packages:/home/optimus/robot_ws/build/move_turtle_pkg:/home/optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/optimus/robot_ws/build/m_pubsub:/home/optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/optimus/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/optimus/robot_ws/install/class_test_interfaces:/home/optimus/robot_ws/install/test_num:/home/optimus/robot_ws/install/move_turtle_pkg:/home/optimus/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.100062] (-) TimerEvent: {}
+[0.167423] (class_test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.200243] (-) TimerEvent: {}
+[0.235100] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.235360] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300384] (-) TimerEvent: {}
+[0.401269] (-) TimerEvent: {}
+[0.501638] (-) TimerEvent: {}
+[0.509408] (class_test_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.536975] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.542962] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.550744] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.602412] (-) TimerEvent: {}
+[0.703177] (-) TimerEvent: {}
+[0.781056] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.804239] (-) TimerEvent: {}
+[0.859390] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.904484] (-) TimerEvent: {}
+[1.005246] (-) TimerEvent: {}
+[1.105680] (-) TimerEvent: {}
+[1.206158] (-) TimerEvent: {}
+[1.306855] (-) TimerEvent: {}
+[1.310939] (class_test_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.311322] (class_test_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.311533] (class_test_interfaces) StderrLine: {'line': b'  class_test_interfaces --arguments-file\n'}
+[1.312732] (class_test_interfaces) StderrLine: {'line': b'  /home/optimus/robot_ws/build/class_test_interfaces/rosidl_adapter__arguments__class_test_interfaces.json\n'}
+[1.312844] (class_test_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.312936] (class_test_interfaces) StderrLine: {'line': b'  /home/optimus/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces\n'}
+[1.313025] (class_test_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.313111] (class_test_interfaces) StderrLine: {'line': b'  /home/optimus/robot_ws/build/class_test_interfaces/rosidl_adapter/class_test_interfaces.idls)\n'}
+[1.313197] (class_test_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.313284] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.313371] (class_test_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.313474] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.313564] (class_test_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.313653] (class_test_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.313740] (class_test_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.313825] (class_test_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.313911] (class_test_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.313998] (class_test_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.314084] (class_test_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.314182] (class_test_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.314270] (class_test_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[1.314356] (class_test_interfaces) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[1.314443] (class_test_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[1.314531] (class_test_interfaces) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[1.314656] (class_test_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 886, in parse_action_string\n'}
+[1.314790] (class_test_interfaces) StderrLine: {'line': b'      raise InvalidActionSpecification(\n'}
+[1.314879] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.315048] (class_test_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidActionSpecification: Number of '---'\n"}
+[1.315220] (class_test_interfaces) StderrLine: {'line': b'  separators nonconformant with action definition\n'}
+[1.315623] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.315727] (class_test_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.315813] (class_test_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.315914] (class_test_interfaces) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[1.316003] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.316092] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.316241] (class_test_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.316347] (class_test_interfaces) StdoutLine: {'line': b'See also "/home/optimus/robot_ws/build/class_test_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.325199] (class_test_interfaces) StderrLine: {'line': b'make: *** [Makefile:1228: cmake_check_build_system] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[1.327875] (class_test_interfaces) CommandEnded: {'returncode': 2}
+[1.407059] (-) TimerEvent: {}
+[1.500422] (class_test_interfaces) JobEnded: {'identifier': 'class_test_interfaces', 'rc': 2}
+[1.507331] (-) TimerEvent: {}
+[1.513986] (-) EventReactorShutdown: {}

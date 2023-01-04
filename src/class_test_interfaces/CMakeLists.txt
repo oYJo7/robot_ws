@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Intfloat.msg"
   "srv/AddThreeInts.srv"
   "srv/MinusThreeInts.srv"
+  "action/Fibonacci.action"
 )
 
 

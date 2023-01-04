@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             'mss = test_num.test_service_ser1:main',
             'msc = test_num.test_service_client:main',
-            'mscm = test_num.test_service_client_minus:main'
+            'mscm = test_num.test_service_client_minus:main',
+            'fbs = test_num.fibonacci_action_server:main',
+            'fbc = test_num.fibonacci_action_client:main'
         ],
     },
 )
