@@ -77,3 +77,9 @@
 # 2023_1_4
 - - -
 * 인터페이스 패키지 만들기
+* git 에러 해결
+    ```
+    find .git/objects/ -size 0 -exec rm -f {} \;
+    git fetch origin
+    git status
+    ```

@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'mss = test_num.test_service_ser1:main',
-            'msc = test_num.test_service_client:main'
+            'msc = test_num.test_service_client:main',
+            'mscm = test_num.test_service_client_minus:main'
         ],
     },
 )

@@ -1,1 +1,1 @@
-/home/optimus/robot_ws/test_num/setup.py
+/home/optimus/robot_ws/src/test_num/setup.py
