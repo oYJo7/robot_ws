@@ -1,0 +1,39 @@
+[0.063s] Invoking command in '/home/optimus/robot_ws/build/class_test_interfaces': CMAKE_PREFIX_PATH=/home/optimus/robot_ws/install/move_turtle_pkg:/home/optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/optimus/robot_ws/src/class_test_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimus/robot_ws/install/class_test_interfaces
+[0.367s] -- The C compiler identification is GNU 9.4.0
+[0.566s] -- The CXX compiler identification is GNU 9.4.0
+[0.583s] -- Check for working C compiler: /usr/bin/cc
+[0.694s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.697s] -- Detecting C compiler ABI info
+[0.858s] -- Detecting C compiler ABI info - done
+[0.874s] -- Detecting C compile features
+[0.874s] -- Detecting C compile features - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++
+[0.993s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.996s] -- Detecting CXX compiler ABI info
+[1.121s] -- Detecting CXX compiler ABI info - done
+[1.138s] -- Detecting CXX compile features
+[1.138s] -- Detecting CXX compile features - done
+[1.161s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.203s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.203s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.450s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.532s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.533s]   By not providing "Findrosidl_deault_generators.cmake" in CMAKE_MODULE_PATH
+[1.533s]   this project has asked CMake to find a package configuration file provided
+[1.533s]   by "rosidl_deault_generators", but CMake did not find one.
+[1.533s] 
+[1.533s]   Could not find a package configuration file provided by
+[1.534s]   "rosidl_deault_generators" with any of the following names:
+[1.534s] 
+[1.534s]     rosidl_deault_generatorsConfig.cmake
+[1.534s]     rosidl_deault_generators-config.cmake
+[1.534s] 
+[1.535s]   Add the installation prefix of "rosidl_deault_generators" to
+[1.535s]   CMAKE_PREFIX_PATH or set "rosidl_deault_generators_DIR" to a directory
+[1.535s]   containing one of the above files.  If "rosidl_deault_generators" provides
+[1.538s]   a separate development package or SDK, be sure it has been installed.
+[1.538s] 
+[1.538s] 
+[1.539s] -- Configuring incomplete, errors occurred!
+[1.539s] See also "/home/optimus/robot_ws/build/class_test_interfaces/CMakeFiles/CMakeOutput.log".
+[1.539s] Invoked command in '/home/optimus/robot_ws/build/class_test_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/optimus/robot_ws/install/move_turtle_pkg:/home/optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/optimus/robot_ws/src/class_test_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimus/robot_ws/install/class_test_interfaces

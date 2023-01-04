@@ -1,0 +1,24 @@
+[0.916s] Invoking command in '/home/optimus/robot_ws/build/test_num': PYTHONPATH=/home/optimus/robot_ws/build/test_num/prefix_override:/home/optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/test_num/build --no-deps install_data
+[1.208s] running develop
+[1.385s] running egg_info
+[1.386s] creating test_num.egg-info
+[1.386s] writing test_num.egg-info/PKG-INFO
+[1.387s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.387s] writing entry points to test_num.egg-info/entry_points.txt
+[1.387s] writing requirements to test_num.egg-info/requires.txt
+[1.387s] writing top-level names to test_num.egg-info/top_level.txt
+[1.389s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.428s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.429s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.471s] running build_ext
+[1.471s] Creating /home/optimus/robot_ws/install/test_num/lib/python3.8/site-packages/site.py
+[1.474s] Creating /home/optimus/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.475s] 
+[1.475s] Installed /home/optimus/robot_ws/build/test_num
+[1.475s] running install_data
+[1.475s] creating /home/optimus/robot_ws/install/test_num/share/ament_index
+[1.475s] creating /home/optimus/robot_ws/install/test_num/share/ament_index/resource_index
+[1.476s] creating /home/optimus/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.476s] copying resource/test_num -> /home/optimus/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.476s] copying package.xml -> /home/optimus/robot_ws/install/test_num/share/test_num
+[1.545s] Invoked command in '/home/optimus/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/optimus/robot_ws/build/test_num/prefix_override:/home/optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/test_num/build --no-deps install_data
