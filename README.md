@@ -90,3 +90,10 @@
 - - - 
 # 2023_1_5
 - - -
+* action code 해석
+* action code flow 해석
+* parameter 설명
+* turtlesim 으로 parameter 연습
+* launch 파일 작성과 launch 파일로 파라미터 작성하고 적용하기
+    * 추가: launch 파일을 패키지에 넣어서 share 적용하는 법 - python 
+    * 

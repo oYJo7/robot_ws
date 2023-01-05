@@ -1,0 +1,25 @@
+[0.972s] Invoking command in '/home/optimus/robot_ws/build/test_para': PYTHONPATH=/home/optimus/robot_ws/build/test_para/prefix_override:/home/optimus/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/test_para/build --no-deps install_data
+[1.280s] running develop
+[1.460s] running egg_info
+[1.460s] creating test_para.egg-info
+[1.460s] writing test_para.egg-info/PKG-INFO
+[1.460s] writing dependency_links to test_para.egg-info/dependency_links.txt
+[1.460s] writing entry points to test_para.egg-info/entry_points.txt
+[1.461s] writing requirements to test_para.egg-info/requires.txt
+[1.461s] writing top-level names to test_para.egg-info/top_level.txt
+[1.462s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[1.501s] reading manifest file 'test_para.egg-info/SOURCES.txt'
+[1.502s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[1.545s] running build_ext
+[1.545s] Creating /home/optimus/robot_ws/install/test_para/lib/python3.8/site-packages/site.py
+[1.548s] Creating /home/optimus/robot_ws/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)
+[1.549s] Installing tp script to /home/optimus/robot_ws/install/test_para/lib/test_para
+[1.550s] 
+[1.550s] Installed /home/optimus/robot_ws/build/test_para
+[1.550s] running install_data
+[1.550s] creating /home/optimus/robot_ws/install/test_para/share/ament_index
+[1.551s] creating /home/optimus/robot_ws/install/test_para/share/ament_index/resource_index
+[1.551s] creating /home/optimus/robot_ws/install/test_para/share/ament_index/resource_index/packages
+[1.551s] copying resource/test_para -> /home/optimus/robot_ws/install/test_para/share/ament_index/resource_index/packages
+[1.552s] copying package.xml -> /home/optimus/robot_ws/install/test_para/share/test_para
+[1.591s] Invoked command in '/home/optimus/robot_ws/build/test_para' returned '0': PYTHONPATH=/home/optimus/robot_ws/build/test_para/prefix_override:/home/optimus/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimus/robot_ws/build/test_para/build --no-deps install_data
